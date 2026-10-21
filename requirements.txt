@@ -1,0 +1,8 @@
+torch>=2.1
+monai-weekly[nibabel,tqdm]
+nibabel
+numpy
+pandas
+scipy
+statsmodels
+matplotlib>=3.9
