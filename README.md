@@ -17,19 +17,19 @@ Mean test Dice over 27 structures (background excluded), mean ± SD over 5 folds
 
 p values use the corrected resampled t-test (Nadeau and Bengio, 2003).
 
+## Notebooks
+
+| Notebook | Description | |
+|---|---|---|
+| `01_training_and_label_efficiency.ipynb` | 5-fold CV baseline, SSL pretraining, label-efficiency runs, statistics, per-structure results (GPU) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/ssl-brain-parcellation/blob/main/notebooks/01_training_and_label_efficiency.ipynb) |
+| `02_clinical_analysis.ipynb` | Per-subject Dice vs CDR, MMSE, age, sex and scanner, and scanner vs disease (CPU) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/ssl-brain-parcellation/blob/main/notebooks/02_clinical_analysis.ipynb) |
+
 ## Contents
 
 ```
-notebooks/
-  01_training_and_label_efficiency.ipynb   5-fold CV baseline, SSL pretraining,
-                                           label-efficiency runs, statistics,
-                                           per-structure results
-  02_clinical_analysis.ipynb               per-subject Dice vs CDR, MMSE, age,
-                                           sex and scanner (CPU)
-scripts/
-  export_clean_folds.py                    writes splits/folds.json (file names only)
-splits/
-  folds.json                               train / val / test files for each fold
+notebooks/   the two notebooks above
+scripts/     export_clean_folds.py: writes splits/folds.json (file names only)
+splits/      folds.json: train / val / test files for each fold
 ```
 
 ## Setup
