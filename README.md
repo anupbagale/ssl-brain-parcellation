@@ -64,7 +64,7 @@ This repository does not contain any OASIS-3 images, labels or clinical data. Th
 
 ## Acknowledgments
 
-Data were provided by OASIS-3: Longitudinal Multimodal Neuroimaging. Principal Investigators: T. Benzinger, D. Marcus, J. Morris; NIH P30 AG066444, P50 AG00561, P30 NS09857781, P01 AG026276, P01 AG003991, R01 AG043434, UL1 TR000448, R01 EB009352, AW00006993.
+Data were provided by OASIS-3: Longitudinal Multimodal Neuroimaging: Principal Investigators: T. Benzinger, D. Marcus, J. Morris; NIH P30 AG066444, P50 AG00561, P30 NS09857781, P01 AG026276, P01 AG003991, R01 AG043434, UL1 TR000448, R01 EB009352.
 
 ## License
 
