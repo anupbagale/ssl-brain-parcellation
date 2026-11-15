@@ -1,0 +1,10 @@
+*.nii
+*.nii.gz
+*.mgz
+*.csv
+!results/*.csv
+*.pth
+*.pt
+*.npz
+.ipynb_checkpoints/
+__pycache__/
